@@ -17,7 +17,7 @@ module.exports = {
         }
       ],
       "at-rule-name-case": "lower",
-      "at-rule-blacklist": ["debug"],
+      "at-rule-disallowed-list": ["debug"],
       "at-rule-no-unknown": null,
       "at-rule-no-vendor-prefix": true,
       "at-rule-semicolon-newline-after": "always",
@@ -58,7 +58,7 @@ module.exports = {
       "declaration-colon-space-after": "always-single-line",
       "declaration-colon-space-before": "never",
       "declaration-empty-line-before": "never",
-      "declaration-property-value-blacklist": {
+      "declaration-property-value-disallowed-list": {
         "border": ["none"],
         "border-top": ["none"],
         "border-right": ["none"],
@@ -82,7 +82,7 @@ module.exports = {
       "function-parentheses-space-inside": "never",
       "function-url-no-scheme-relative":true,
       "function-url-quotes": "always",
-      "function-url-scheme-blacklist": ["ftp","/^http:"],
+      "function-url-scheme-disallowed-list": ["ftp","/^http:"],
       "function-whitespace-after": "always",
       "indentation": 4,
       "length-zero-no-unit": true,
