@@ -1,6 +1,6 @@
 {
   "name": "stylelint-config-felixk76",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Stylelint config used in my web projects",
   "main": "index.js",
   "scripts": {
@@ -14,14 +14,14 @@
   "license": "MIT",
   "homepage": "https://github.com/felixk76/stylelint-config-fk",
   "devDependencies": {
-    "stylelint": "^13.7.1",
+    "stylelint": "^13.10.0",
     "stylelint-order": "^4.1.0",
-    "stylelint-scss": "^3.18.0"
+    "stylelint-scss": "^3.19.0"
   },
   "peerDependencies": {
-    "stylelint": "^13.6.1",
+    "stylelint": "^13.10.0",
     "stylelint-order": "^4.1.0",
-    "stylelint-scss": "^3.18.0"
+    "stylelint-scss": "^3.19.0"
   },
   "bugs": {
     "url": "https://github.com/felixk76/stylelint-config-fk/issues"
