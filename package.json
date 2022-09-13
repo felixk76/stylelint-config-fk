@@ -13,21 +13,14 @@
   "author": "Felix Kirmaier",
   "license": "MIT",
   "homepage": "https://github.com/felixk76/stylelint-config-fk",
-  "devDependencies": {
-    "stylelint": "^14.11.0",
-    "stylelint-order": "^5.0.0",
-    "stylelint-scss": "^4.3.0"
-
-  },
-  "peerDependencies": {
-    "stylelint": "^14.11.0",
-    "stylelint-order": "^5.0.0",
-    "stylelint-scss": "^4.3.0"
-  },
   "bugs": {
     "url": "https://github.com/felixk76/stylelint-config-fk/issues"
   },
-  "dependencies": {},
+  "dependencies": {
+    "stylelint": "^14.11.0",
+    "stylelint-order": "^5.0.0",
+    "stylelint-scss": "^4.3.0"
+  },
   "keywords": [
     "stylelint-config"
   ]
