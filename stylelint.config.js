@@ -70,7 +70,6 @@ module.exports = {
       "font-family-no-duplicate-names": true,
       "font-family-no-missing-generic-family-keyword": true,
       "font-weight-notation": "named-where-possible",
-      "function-calc-no-invalid": true,
       "function-calc-no-unspaced-operator": true,
       "function-comma-newline-after": "never-multi-line",
       "function-comma-space-after": "always-single-line",
@@ -148,11 +147,11 @@ module.exports = {
       "order/properties-alphabetical-order": null,
       "property-case": "lower",
       "property-no-unknown": true,
-      "property-no-vendor-prefix": [ 
+      "property-no-vendor-prefix": [
         true,{
         "ignoreProperties": ["text-size-adjust","appearance"]
         }
-      ],  
+      ],
       "rule-empty-line-before": [
         "always-multi-line",
         {
@@ -197,7 +196,7 @@ module.exports = {
       "scss/operator-no-newline-before": true,
       "scss/selector-no-union-class-name": true,
       "scss/percent-placeholder-pattern": "^[a-z]+([a-z0-9-]+)?$",
-      "scss/operator-no-unspaced": true, 
+      "scss/operator-no-unspaced": true,
       "scss/selector-no-redundant-nesting-selector": true,
       "selector-attribute-brackets-space-inside": "never",
       "selector-attribute-operator-space-after": "never",
